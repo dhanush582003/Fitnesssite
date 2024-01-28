@@ -1,0 +1,676 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Poppins&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+    
+   
+}
+.navbar{
+   
+    top: 0;
+    z-index: 2 ;
+    box-sizing: border-box;
+}
+nav{
+  
+    word-spacing: 3px;
+    letter-spacing: 1px; 
+      
+    
+
+}
+
+.nav-item{
+    transition: 1s;
+}
+.nav-item{
+    color: white; 
+    border-bottom: 2px solid transparent;
+ 
+ }
+.nav-item:hover{
+   color: orangered; 
+   border-bottom: 2px solid orangered;
+   transition: 0.3s;
+
+}
+
+/*#top{
+    margin-top: 15%;
+    text-align: center;
+    color:  rgb(230, 87, 35);
+}
+#down{
+    
+   text-align: center;
+    color: white;
+}*/
+.top1{
+    background-color: black;
+    
+}
+
+
+
+
+
+h4{
+    text-align: center;
+}
+p{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.icon1{
+    
+   
+    margin-left: 44%;
+    
+
+       
+}
+.css-item{
+    transition: 1.5s;
+}
+.css-item:hover{
+    background-color: orangered;
+    border-radius: 30px 0px 30px 0px;
+    transition: 0.7s;
+    color:white !important;
+    
+
+}
+#column1{
+    color: rgb(255, 249, 249) ;
+}
+
+#column2{
+    color: rgb(226, 222, 222);
+}
+#column3{
+    color: rgb(226, 222, 222);
+}
+#column4{
+    color: rgb(226, 222, 222);
+}
+
+#register{
+    transition: 1s;
+}
+
+#register:hover{
+    background-color: orangered;
+    color: black;
+    transition: 1.5s;
+}
+
+.border3 h6{
+ text-align: center;
+}
+
+.border3 #align-border{
+  text-align: center;
+}
+
+#align-border{
+    
+    border: 1.5px solid black;
+    transition: 1.2s;
+    
+}
+
+.border3 ul{
+    letter-spacing: 2px;
+    list-style: none;
+    position: relative;
+    margin-left: -20px;
+    
+     
+
+}
+.border3 h4 {
+    color:white;
+    font-size: 30px;
+} 
+ .border3 h1{
+    color: orangered;
+    font-size: 50px;
+ }
+ .border3 span{
+    color: rgb(240, 248, 255,0.7);
+    font-weight: bold;
+ }
+ .border3 ul{
+    color: white;
+ }
+ .border3 button{
+    color: white;
+    background-color: orangered;
+ }
+
+ #align-border:hover{
+    background-color:white;
+    transition: 1s;
+ }
+ #align-border:hover h4{
+    color: black !important;
+ }
+ #align-border:hover span{
+    color: black !important;
+ }
+  
+ #align-border:hover ul li{
+    color: black !important;
+ }
+ 
+
+.big1:hover{
+  transform: scale(1.1);
+  transition: 1.5s;
+  cursor: zoom-in;
+  }
+
+  .big2:hover{
+    transform: scale(1.1);
+    transition: 1.5s;
+    cursor: zoom-in;
+    }
+
+    .big3:hover{
+        transform: scale(1.1);
+        transition: 1.5s;
+        cursor: zoom-in;
+        }
+
+        .big4:hover{
+            transform: scale(1.1);
+            transition: 1.5s;
+            cursor: zoom-in;
+            }
+
+            .big5:hover{
+                transform: scale(1.1);
+                transition: 1.5s;
+                cursor: zoom-in;
+                }
+
+                .big6:hover{
+                    transform: scale(1.1);
+                    transition: 1.5s;
+                    cursor: zoom-in;
+                    }
+
+            /* teams*/
+            #teams{
+                font-weight: bold;
+            }
+
+            #teams h4{
+                float: left;
+            }
+            #teams h6{
+              color: orangered; 
+            }
+
+            /*Trainers
+            .trainers:hover{
+                transform: scale(1.1);
+                transition: 1s;
+            }*/
+            footer ul{
+                text-align: center;
+                line-height: 30px; 
+                text-align: justify; 
+            }
+            footer li {
+                list-style: none;
+            }
+            footer li a{
+                text-decoration: none ;
+                color: white;
+            }
+
+            footer ul li a:hover{
+                color: orangered;
+            }
+ 
+
+
+
+
+            /*ABOUT US*/
+            #aboutus h2{
+                margin-top: -24%;
+                color: white;
+                font-size: 40px;
+                font-weight: bold;
+            }
+
+            #aboutus a{
+                text-decoration: none;
+                font-size: 17px;
+                color: white;
+            }
+
+
+            /*video progress-bar*/
+            #side1{
+                background-color: black;
+                color: white;
+                font-size: 12px;
+            }
+            #side1 p{
+                text-align: justify;
+            }
+
+
+            /*testiminol*/
+            #testiminol{
+                margin-top: -1%;
+                background-color: rgb(49, 48, 48) !important;
+            }
+             .tt-rating i{
+                display: inline-block;
+                font-size: 15px;
+                letter-spacing: 10px;
+                
+            }
+
+            .fa-facebook:hover{
+                color: rgb(103, 103, 241) !important;
+            }
+            .fa-twitter:hover{
+
+                color:rgb(35, 165, 216) !important;
+
+            }
+
+            .fa-youtube-play:hover{
+                color: rgb(228, 22, 22) !important;
+            }
+            .fa-instagram:hover{
+                color: rgb(218, 61, 113) !important;
+                
+            }
+            .fa-envelope:hover{
+              color: skyblue !important;
+            }
+
+
+
+
+            /*classes*/
+            
+            .cd-text h3{
+                text-align: justify;
+                color: white;
+            }
+            .cd-single-item p{
+                text-align: justify;
+                font-size: small;
+                color: rgb(110, 111, 112);
+
+            }
+            .cd-trainer-text{
+                text-align: justify;
+                color: white;
+                margin-top: 10px;
+            }
+            .trainer-title h4{
+                text-align: justify;
+                color: white;
+                line-height: 5px;
+            }
+            .trainer-title span{
+                font-size: small;
+                color: rgb(88, 89, 90);
+            }
+            .trainer-social .fa{
+             color: white;
+             font-size: small;
+            letter-spacing: 10px;
+            }
+
+            .trainer-info{
+                
+                font-size: small;
+                margin-left: -30px;
+            }
+            .trainer-info li{
+                list-style: none;
+            }
+
+             p{
+
+                text-align: justify;
+                font-size: small;
+                color: rgb(110, 111, 112);
+
+            }
+
+            /*side imges*/
+
+            .so-categories h5{
+                color: white;
+            }
+            .so-categories ul {
+                margin-left: -30px;
+                font-size: small;
+                line-height: 33px;
+            }
+            .so-categories ul li {
+                list-style: none;
+            
+            }
+            .so-categories ul li a{
+                text-decoration: none;
+                color: rgb(110, 111, 112);
+            }
+
+            .so-categories li a:hover{
+                color: rgb(216, 85, 38) !important;
+            }
+            .so-latest h5{
+                text-align: justify;
+                color: white;
+            }
+            .latest-item{
+                margin-top: 20px;
+                color: white;
+                
+            }
+            .latest-item .li-text h6 a{
+                color: white !important;
+                text-decoration: none;
+                margin-top: -55px;
+                display: block;
+                margin-left: 110px;
+                font-size: small;
+                
+            }
+            .li-time{
+                margin-top: -10px;
+                display: block;
+                margin-left: 110px;
+                font-size: xx-small;
+                margin-top: 7px;
+                columns:rgb(110, 111, 112) ;
+                opacity: 0.6;
+                
+            }
+            .pic1:hover{
+                transform: scale(1.1);
+                transition: 1.5s;
+                cursor: zoom-in;
+            }
+            .pic2:hover{
+                transform: scale(1.1);
+                transition: 1.5s;
+                cursor: zoom-in;
+            }
+            .pic3:hover{
+                transform: scale(1.1);
+                transition: 1.5s;
+                cursor: zoom-in;
+            }
+            .pic4:hover{
+                transform: scale(1.1);
+                transition: 1.5s;
+                cursor: zoom-in;
+            }
+            .pic5:hover{
+                transform: scale(1.1);
+                transition: 1.5s;
+                cursor: zoom-in;
+            }
+            .pic6:hover{
+                transform: scale(1.1);
+                transition: 1.5s;
+                cursor: zoom-in;
+            }
+
+
+            /*contact us
+
+            .contact-main{
+                margin-top: 100px;
+            }
+        
+            .contact-text h6{
+                text-align: justify;
+                color: orangered;
+
+            }
+
+            .contact-text h3{
+                font-weight: bold;
+            }
+            .ct-location{
+                margin-left: 40px;
+                margin-top: -50px; 
+                text-align: justify;   
+                
+            }
+
+            .fa-map-marker{
+                font-size: larger;
+                background-color: orangered;
+                background-size: cover;
+                font-size: 40px;
+                border-radius: 10px;
+                background: transparent;  
+                text-align: justify;   
+                
+            }
+
+            .fa-map-marker:hover{
+                color: orangered;
+            }
+
+            .fa-mobile{
+
+                font-size: larger;
+                background-color: orangered;
+                background-size: cover;
+                font-size: 40px;
+                border-radius: 10px;
+                background: transparent;  
+                text-align: justify; 
+
+            }
+
+            .fa-mobile:hover{
+
+                color: orangered;
+
+            }
+
+
+            .ct-mobile{
+                margin-left: 40px;
+                margin-top: -40px; 
+                text-align: justify;    
+                
+            }
+
+            .email-box{
+                
+                font-size: larger;
+                background-color: orangered;
+                background-size: cover;
+                font-size: 30px;
+                border-radius: 10px;
+                background: transparent;  
+                text-align: justify;
+                margin-left: -5px; 
+            }
+
+            .email-box:hover{
+                color: orangered;
+            }
+
+            .ct-email-box{
+                margin-left: 40px;
+                margin-top: -40px; 
+                text-align: justify;
+                   
+                
+            }*/
+
+
+
+
+
+        
+  /*contact us*/
+
+            .contact-main{
+                margin-top: 100px;
+            }
+        
+            .contact-text h6{
+                text-align: justify;
+                color: orangered;
+
+            }
+
+            .contact-text h3{
+                font-weight: bold;
+                color: white;
+            }
+            .ct-location{
+                margin-left: 40px;
+                margin-top: -50px; 
+                text-align: justify;   
+                
+            }
+
+            .fa-map-marker{
+                font-size: larger;
+                background-color: orangered;
+                background-size: cover;
+                font-size: 40px;
+                border-radius: 10px;
+                background: transparent;  
+                text-align: justify;   
+                color: black;
+                
+            }
+
+            .fa-map-marker:hover{
+                color: orangered;
+            }
+
+            .fa-mobile{
+
+                font-size: larger;
+                background-color: orangered;
+                background-size: cover;
+                font-size: 40px;
+                border-radius: 10px;
+                background: transparent;  
+                text-align: justify; 
+                color: black;
+
+            }
+
+            .fa-mobile:hover{
+
+                color: orangered;
+
+            }
+
+
+            .ct-mobile{
+                margin-left: 40px;
+                margin-top: -40px; 
+                text-align: justify;    
+                
+            }
+
+            .email-box{
+                
+                font-size: larger;
+                background-color: orangered;
+                background-size: cover;
+                font-size: 30px;
+                border-radius: 10px;
+                background: transparent;  
+                text-align: justify;
+                margin-left: -5px; 
+                color: black;
+            }
+
+            #mail1:hover{
+                color: orangered !important;
+                cursor: pointer;
+            }
+
+            .ct-email-box{
+                margin-left: 40px;
+                margin-top: -40px; 
+                text-align: justify;
+                   
+                
+            }
+
+
+/*UP-ARROW*/
+.fa-arrow-up{
+    display: grid;
+    justify-content: end;
+    font-size: xx-large;
+    background-color: orangered;
+    border-radius: 35%;
+    display: inline-block;
+    margin-left: 97%;
+    padding: 2px;
+    color: black;
+    background-size: cover;
+    background-attachment: fixed;
+    position: sticky;
+    scroll-behavior: smooth;
+
+}
+
+.up-arrow{
+    top: 0;
+    z-index: 2;
+
+}
+
+
+
+
+
+
+
+
+/*login*/
+
+
+.login-page{
+    display: grid;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+
+/*dropdown */
+
+.dropdown-menu {
+    background-color: rgb(44, 44, 44) !important;
+   
+}
+.dropdown-item{
+    color: white;
+}
+
+
+
